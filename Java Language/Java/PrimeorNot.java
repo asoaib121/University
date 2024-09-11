@@ -3,7 +3,7 @@
 package javacode1.primeornot;
 import java.util.Scanner;
 
-public class PrimeorNot {
+public class EvenorOdd {
 
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
@@ -13,10 +13,10 @@ public class PrimeorNot {
         {
         if(num%2==0)
         {
-        System.out.println("Not Prime Number");
+        System.out.println("The number is even");
         break;
         }else{
-        System.out.println("Prime Number");
+        System.out.println("The number is odd");
         break;
         }
         }
