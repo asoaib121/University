@@ -11,7 +11,7 @@ public class Series1 {
         n=input.nextInt();
         for(int i=1;i<=n;i++)
         {
-        sum=sum*(i*i);
+        sum=sum+(i*i);
         System.out.print(i+"*"+i+" ");
         }
         System.out.println();
