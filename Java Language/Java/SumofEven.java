@@ -16,7 +16,7 @@ public class SumofEven {
         
         for(int i=m;i<=n;i++)
         {
-            if (i%2!=0)
+            if (i%2==0)
             {
         sum=sum+i;
         System.out.print(" "+i);
