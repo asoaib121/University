@@ -19,6 +19,7 @@ public class Sumofdigit {
         temp=temp/10;  
         }
         System.out.println("Summition of digit: "+sum);
-        
     }
 }
+ /* input :362
+    output:11 (3+6+2)*/
