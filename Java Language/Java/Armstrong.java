@@ -5,7 +5,7 @@ package javacode1.amonstrong;
 import java.util.Scanner;
 
 
-public class Amonstrong {
+public class Armstrong {
 
     public static void main(String[] args) {
         Scanner input =new Scanner(System.in);
