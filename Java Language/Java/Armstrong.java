@@ -1,6 +1,6 @@
 
 
-package javacode1.amonstrong;
+package javacode1.armstrong;
 
 import java.util.Scanner;
 
