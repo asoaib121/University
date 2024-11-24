@@ -2,12 +2,14 @@
 void Bubble_sort(int Arr[],int n)
 {
 
-    for(int j=1; j<=n; j++)
+    for(int j=1; j<n-1; j++)
     {
-        for(int i=0; i<n-j ; i++)
+        //check biggest number
+        for(int i=0; i<n-j-1 ; i++)
         {
             if(Arr[i]>Arr[i+1])
             {
+                // Swap Arr[i] and Arr[j]
                int  temp=Arr[i];
                 Arr[i]=Arr[i+1];
                 Arr[i+1]=temp;
@@ -31,6 +33,7 @@ int main()
         scanf("%d",&Arr[k]);
     }
     printf("\n");
+    // Display input array value
     printf("Display the Array value: ");
     for(int k=0; k<n; k++)
     {
@@ -39,6 +42,8 @@ int main()
     printf("\n");
     Bubble_sort(Arr,n);
     printf("Bubble Sorting Value is: ");
+
+    //Display final Sorting array value
     for(int m=0; m<n; m++)
     {
         printf("%d ",Arr[m]);
