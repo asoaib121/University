@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en"> 
+   <head>
+       <meta charset="UTF-8">
+	   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+       <title> Learning CSS </title>
+	   <style>
+	    /*  .demo:hover{
+		  background-color:green;
+		  color:white;
+		  }  */
+		  
+		/*  p:first-child{
+		  background-color:green;
+		  color:white;
+		  } */
+		  
+		  /*   p:nth-child(choice any pattern) */
+		  p:nth-child(2){
+		  background-color:green;
+		  color:white;
+		  }
+		  
+		  li:nth-child(odd){
+		  
+		  background-color:black;
+		  color:aqua;
+		  }
+		  
+		  .class::before, .class::after{
+		  content:'';
+		  width:100%;
+		  height:20px;
+		  background: black;
+		  display: inline-block;
+		  }
+
+        input::placeholder{
+         color: brown;
+        }		
+	   </style>
+    </head>
+	
+	<body>
+	    <div class="demo">
+		     <p>Bangladesh is a vibrant country located in South Asia, known for its rich cultural heritage, lush landscapes, and resilient population</p>
+			 <p>Bangladesh is a vibrant country located in South Asia, known for its rich cultural heritage, lush landscapes, and resilient population</p>
+			 <p>Bangladesh is a vibrant country located in South Asia, known for its rich cultural heritage, lush landscapes, and resilient population</p>
+			 <p>Bangladesh is a vibrant country located in South Asia, known for its rich cultural heritage, lush landscapes, and resilient population</p>
+	    </div>
+		
+		<div>
+		  <ul>
+		     <li>Home</li>
+			 <li>Home</li>
+			 <li>Home</li>
+			 <li>Home</li>
+			 
+		  </ul>
+		</div>
+		
+		 <div class="class">
+		     <p1>Bangladesh is a vibrant country located in South Asia, known for its rich cultural heritage, lush landscapes, and resilient population</p1>
+			 <p1>Bangladesh is a vibrant country located in South Asia, known for its rich cultural heritage, lush landscapes, and resilient population</p1>
+			 <p1>Bangladesh is a vibrant country located in South Asia, known for its rich cultural heritage, lush landscapes, and resilient population</p1>
+			 <p1>Bangladesh is a vibrant country located in South Asia, known for its rich cultural heritage, lush landscapes, and resilient population</p1>
+	    </div>
+		
+		<input type="text" placeholder="hello everyone">
+	</body>
+
+</html>
