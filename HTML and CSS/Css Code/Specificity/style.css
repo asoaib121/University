@@ -1,0 +1,36 @@
+/* specificity calculator */
+/* a=number of id  */
+/* b=number of class, pseduo classes, attributes  */
+/* b=number of elements, pesudo elemnts, attributes  */
+
+
+/* a=1 b=1 c=0  === 100 */
+#heading{
+  background-color: red;
+}
+
+/* a=0 b=0 c=1 === 001 */
+h1 {
+  background-color: navy;
+}
+
+/* a=0 b=1 c=1  === 011 */
+h1.title {
+  background-color: blue;
+}
+
+/* a=0 b=1 c=0  === 010 */
+.title {
+  background-color: green;
+}
+
+/* a=1 b=0 c=1  === 101 */
+h1#heading {
+  background-color: pink;
+}
+
+/* a=1 b=1 c=1  === 111 */
+h1#heading.title {
+  background-color: brown;
+}
+
