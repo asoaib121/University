@@ -1,0 +1,9 @@
+.gradient-style{
+	height:400px;
+	width:100%;
+	/** linear gradiant style **/
+	/**background-image:linear-gradient(to right,red,green,orange,yellow,pink);**/
+	
+	/** radial gradiant style **/
+	background-image:radial-gradient(circle,red,green,orange,pink);
+}
